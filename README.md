@@ -19,6 +19,7 @@ The code is built with following libraries:
 
 - Occluded CelebA (for training).
 - Occluded LFW (for testing) 
+
 The dataset can be download from:
 https://drive.google.com/drive/folders/1ISmIMmmpEVFTi8Xl2aiGR8DUBjjOEHMl?usp=sharing
 
