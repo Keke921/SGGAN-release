@@ -28,7 +28,7 @@ https://drive.google.com/drive/folders/1ISmIMmmpEVFTi8Xl2aiGR8DUBjjOEHMl?usp=sha
 - LightCNN[1] is used to extract features. The code of LightCNN is borrowed from:
 https://github.com/AlfredXiangWu/LightCNN
 
-We use [LightCNN-29 v2](https://github.com/1adrianb/face-alignment) provided by the author.
+We use [LightCNN-29 v2](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view) provided by the author.
 
 After download the pretrained model, directly put it in the master directory.
 
