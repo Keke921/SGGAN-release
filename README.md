@@ -57,11 +57,10 @@ python train_phase2.py --dataset_name="prepared_image/img_align_celeba_crop" \
 - Tips:
 	- Suppose the dataset is placed in the folder: E:\data\prepared_image/img_align_celeba_crop
 	- The dataset structure should be:
-	- 
-	e.g.
-	
+	e.g.	
 	> Celeba_crop
 	>> complete
+	>> 
 	>> contaminate	
 	>>> img_align_mask	
 	>>>  img_align_mask_sv	
