@@ -29,6 +29,7 @@ https://github.com/AlfredXiangWu/LightCNN
 
 We use LightCNN-29 v2 provided by the author, which can be download from:
 https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view
+
 After download the pretrained model, directly put it in the master directory.
 
 ### Training 
@@ -57,13 +58,13 @@ python train_phase2.py --dataset_name="prepared_image/img_align_celeba_crop" \
 	- Suppose the dataset is placed in the folder: E:\data\prepared_image/img_align_celeba_crop
 	- The dataset structure should be:
 	e.g.
-	©À©¤©¤ Celeba_crop
-	©¦©À©¤©¤ contaminate
-	©¦©¦©À©¤©¤ img_align_mask
-	©¦©¦©À©¤©¤ img_align_mask_sv
-	©¦©¦©À©¤©¤ img_align_rand	
-	©¦©¦©À©¤©¤ img_align_sun_glass
-	©¦©À©¤©¤complete
+	|- Celeba_crop
+	|-- contaminate
+	|--- img_align_mask
+	|---  img_align_mask_sv
+	|---  img_align_rand	
+	|---  img_align_sun_glass
+	|--complete
 	- dataset_train is the train list. We provide the list in our experiment which randomly deletes some image name of female. Because there are more female photos than males in the original dataset.
 	- dataset_test is the test list. 
 	- For stage2, suppose the trained moedl of the first stage is placed in the forlder: ./output/vae.pth
@@ -82,11 +83,11 @@ python test-lfw.py --dataset_name="E:\data\prepared_image\processed_lfw_aligned"
 	- Suppose the trained models are named "gen1.pth" and "gen2.pth" for stage1 and stage2, respectively. And they are placed in the folder: ./output.
 		
 ## References
-- [1] Xiang Wu, Ran He, Zhenan Sun, and Tieniu Tan. 2018. A light cnn for deep face representation with noisy labels. IEEE Transactions on Information Forensics and Security 13, 11 (2018), 2884¨C2896. https://doi.org/10.1109/TIFS.2018.2833032
+- [1] Xiang Wu, Ran He, Zhenan Sun, and Tieniu Tan. 2018. A light cnn for deep face representation with noisy labels. IEEE Transactions on Information Forensics and Security 13, 11 (2018), 2884-2896. https://doi.org/10.1109/TIFS.2018.2833032
 - [2] Bulat, Adrian, and Georgios Tzimiropoulos. "How far are we from solving the 2d & 3d face alignment problem?(and a dataset of 230,000 3d facial landmarks)." Proceedings of the IEEE International Conference on Computer Vision. 2017.
 
 ## Citation
 
 Please cite the paper if the codes are helpful for you research.
 
-Yiu-ming Cheung, Mengke Li and Rong Zou, ¡°Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion¡±, in ICME'21.
+Yiu-ming Cheung, Mengke Li and Rong Zou, â€»Facial Structure Guided GAN for Identity-preserved Face Image De-occlusionÂ§, in ICME'21.
