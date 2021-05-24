@@ -63,15 +63,15 @@ python train_phase2.py --dataset_name="prepared_image/img_align_celeba_crop" \
 	> Celeba_crop	
 	>> contaminate
 	
-	|||- img_align_mask
+	>>> img_align_mask
 	
-	|||-  img_align_mask_sv
+	>>>  img_align_mask_sv
 	
-	|||-  img_align_rand	
+	>>>  img_align_rand	
 	
-	|||-  img_align_sun_glass
+	>>>  img_align_sun_glass
 	
-	||-complete
+	>> complete
 	
 	- dataset_train is the train list. We provide the list in our experiment which randomly deletes some image name of female. Because there are more female photos than males in the original dataset.
 	- dataset_test is the test list. 
