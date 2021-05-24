@@ -57,14 +57,23 @@ python train_phase2.py --dataset_name="prepared_image/img_align_celeba_crop" \
 - Tips:
 	- Suppose the dataset is placed in the folder: E:\data\prepared_image/img_align_celeba_crop
 	- The dataset structure should be:
+	- 
 	e.g.
+	
 	|- Celeba_crop
+	
 	|-- contaminate
+	
 	|--- img_align_mask
+	
 	|---  img_align_mask_sv
+	
 	|---  img_align_rand	
+	
 	|---  img_align_sun_glass
+	
 	|--complete
+	
 	- dataset_train is the train list. We provide the list in our experiment which randomly deletes some image name of female. Because there are more female photos than males in the original dataset.
 	- dataset_test is the test list. 
 	- For stage2, suppose the trained moedl of the first stage is placed in the forlder: ./output/vae.pth
