@@ -60,9 +60,8 @@ python train_phase2.py --dataset_name="prepared_image/img_align_celeba_crop" \
 	- 
 	e.g.
 	
-	|- Celeba_crop
-	
-	||- contaminate
+	> Celeba_crop	
+	>> contaminate
 	
 	|||- img_align_mask
 	
