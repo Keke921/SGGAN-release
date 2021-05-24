@@ -96,4 +96,4 @@ python test-lfw.py --dataset_name="E:\data\prepared_image\processed_lfw_aligned"
 
 Please cite the paper if the codes are helpful for you research.
 
-Yiu-ming Cheung, Mengke Li and Rong Zou, Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion§, in ICMR'21.
+Yiu-ming Cheung, Mengke Li and Rong Zou, Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion, in ICMR'21.
