@@ -1,7 +1,7 @@
 ## Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion
 Yiu-ming Cheung, Mengke Li, Rong Zou
 _________________
-A [pytorch](http://pytorch.org/) implementation of Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion
+A [pytorch](http://pytorch.org/) implementation of [Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion](https://dl.acm.org/doi/pdf/10.1145/3460426.3463642)
 Contact: mengkejiajia@qq.com
 
 
