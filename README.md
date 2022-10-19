@@ -95,7 +95,7 @@ python test-lfw.py --dataset_name="E:\data\prepared_image\processed_lfw_aligned"
 ## Citation
 
 Please cite the paper if the codes are helpful for you research.
-‘’‘
+```
 @inproceedings{CheungLZ21FSGGAN,
   author    = {Cheung, Yiu{-}Ming and Li, Mengke Li and Zou, Rong Zou}
   title     = {Facial Structure Guided {GAN} for Identity-preserved Face Image De-occlusion},
@@ -106,4 +106,4 @@ Please cite the paper if the codes are helpful for you research.
   year      = {2021},  
   doi       = {10.1145/3460426.3463642}
 }
-’‘’
+```
